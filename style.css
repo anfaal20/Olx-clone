@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Inter+Tight:wght@500&display=swap');
+
+* {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+#a-1 {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#a-1:hover {
+    color: rgb(66, 66, 235);
+}
+
+.i-1 {
+    border: none;
+    border-left: none;
+}
+
+.i-1:focus {
+    outline: none;
+}
+
+.input-1:focus {
+    outline: 2px solid aqua;
+}
+
+.i-2 {
+    border: none;
+    border-left: none;
+}
+
+.i-2 ::placeholder {
+    margin-left: 30px;
+
+}
+
+.i-2:focus {
+    outline: none;
+}
+
+.input-2:focus {
+    outline: 2px solid aqua;
+}
+
+
+
+#btn-1 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding: 0;
+
+
+}
+
+#btn-1:hover {
+
+    transition-duration: 700ms;
+    border: none;
+}
+
+#btn-2 {
+    border-top: 3px solid rgba(2, 197, 197, 0.877);
+    border-bottom: 3px solid rgb(46, 46, 196);
+    border-right: 3px solid rgb(46, 46, 196);
+    border-left: 3px solid rgba(235, 235, 33, 0.678);
+    border-radius: 32px;
+
+
+
+}
+
+
+.img {
+    width: 97vw;
+    height: 250px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+#navbar {
+    color: #000;
+
+}
+
+#navbar:hover {
+    color: rgb(34, 211, 211);
+}
+
+.h2-2 {
+    margin: 10px;
+    margin-top: 30px;
+    letter-spacing: -1;
+}
+
+.mobile {
+    border-radius: 20px;
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.sub-div-1 {
+    margin: 15px;
+    width: fit-content;
+    margin-right: 0%;
+}
+
+.h2-3 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.veichle {
+    border-radius: 20px;
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.sub-div-2 {
+    margin: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    width: fit-content;
+}
+
+.h2-4 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.property {
+    border-radius: 20px;
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.sub-div-3 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-5 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.property {
+    border-radius: 20px;
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.sub-div-4 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.h2-6 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.property {
+    border-radius: 20px;
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.sub-div-5 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0;
+}
+
+.h2-7 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.sub-div-6 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.h2-8 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.sub-div-7 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-9 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.sub-div-8 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-10 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.sub-div-9 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-11 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.sub-div-10 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-12 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.sub-div-11 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-13 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.sub-div-12 {
+    margin: 15px;
+    width: fit-content;
+    margin-left: 0%;
+}
+
+.h2-14 {
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .olx {
+        display: none;
+    }
+}
+
+.car,
+.flat,
+.phones,
+.jobs {
+    color: #383636;
+}
+
+.jobs:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.phones:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.car:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.flat:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+.bikes,
+.books,
+.watches,
+.dogs {
+    color: #383636;
+}
+
+.bikes:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.books:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.watches:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.dogs:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.about,
+.blog,
+.contact,
+.buisness {
+    color: #383636;
+}
+
+.about:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.blog:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.contact:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.buisness:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.help,
+.sitemap,
+.terms,
+.privacy {
+    color: #383636;
+}
+
+.help:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.sitemap:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.terms:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
+
+.privacy:hover {
+    transition-duration: 500ms;
+    color: #000;
+}
